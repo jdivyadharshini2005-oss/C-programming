@@ -1,0 +1,10 @@
+// 3. Apply logical NOT on zero
+ #include <stdio.h>
+
+int main() {
+	int a,c;
+	c=!(a);
+	printf("%d",c);
+
+}
+
