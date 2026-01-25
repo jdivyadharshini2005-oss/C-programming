@@ -1,0 +1,12 @@
+// 1. Compare two numbers using >.
+#include <stdio.h>
+
+int main() {
+    int a,b,com;
+    scanf("%d%d",&a,&b);
+    com=a>b;
+    printf("%d",com);
+    return 0;
+	
+
+}
