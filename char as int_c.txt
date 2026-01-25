@@ -1,0 +1,8 @@
+// 7.store char in int
+#include<stdio.h>
+int main(){
+    char ch='A';
+    char c='a';
+    printf("%d\n",ch);
+    printf("%d",c);
+}
