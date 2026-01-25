@@ -1,0 +1,9 @@
+// 5.size of char
+#include <stdio.h>
+
+int main() {
+  char myChar;
+  printf("%zu\n", sizeof(myChar));
+  
+  return 0;
+}
