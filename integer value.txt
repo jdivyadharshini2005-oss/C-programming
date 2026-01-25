@@ -1,0 +1,9 @@
+// 3.print the integer value
+ #include<stdio.h>
+ int main(){
+     int a=10;
+     int b=25;
+     printf("%d\n%d",a,b);
+     return 0;
+ }
+
