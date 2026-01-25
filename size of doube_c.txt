@@ -1,0 +1,9 @@
+// 5.size of double
+#include <stdio.h>
+
+int main() {
+  double myDouble;
+  printf("%zu\n", sizeof(myDouble));
+  
+  return 0;
+}
