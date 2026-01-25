@@ -1,0 +1,11 @@
+// 1. Apply pre-increment to a variable
+
+#include <stdio.h>
+
+int main() {
+	int a;
+	scanf("%d",&a);
+	a++;
+	printf("%d",a);
+
+}
