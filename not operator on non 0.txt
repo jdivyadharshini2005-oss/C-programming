@@ -1,0 +1,12 @@
+// 4. Apply logical NOT on nonzero value
+ #include <stdio.h>
+
+int main() {
+	int a,c;
+	a=8;
+	c=!(a);
+	printf("%d",c);
+
+}
+
+
