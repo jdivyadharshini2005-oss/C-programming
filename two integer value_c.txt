@@ -1,0 +1,12 @@
+
+
+// 6.print the 2 integer value in single inline
+ #include<stdio.h>
+ int main(){
+     int a=5,b=10;
+     int a1=20,b1=30;
+     printf("%d %d\n",a,b);
+     printf("%d %d",a1,b1);
+     return 0;
+ }
+
