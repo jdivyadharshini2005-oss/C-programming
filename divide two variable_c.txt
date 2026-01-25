@@ -1,0 +1,11 @@
+9. Divide two variables
+#include<stdio.h>
+int main(){
+    int a=8,b=2;
+    int a1=10,b1=2;
+    int div1=a/b;
+    int div2=a1/b1;
+    printf("%d\n",div1);
+    printf("%d",div2);
+    return 0;
+}
