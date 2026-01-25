@@ -1,0 +1,9 @@
+
+
+// 8. Print output in two lines using \n
+ #include<stdio.h>
+ int main(){
+     printf("Hello\nWorld\n");
+     printf("Good\nMorning");
+     return 0;
+ }
