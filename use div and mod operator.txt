@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    scanf("%d %d", &a, &b);
+
+    int div = a;
+    int mod = a;
+
+    div /= b;   // division
+    mod %= b;   // remainder
+
+    printf("%d %d", div, mod);
+    return 0;
+}
