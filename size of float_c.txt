@@ -1,0 +1,9 @@
+// 4.size of float
+#include <stdio.h>
+
+int main() {
+  float myFloat;
+  printf("%zu\n", sizeof(myFloat));
+  
+  return 0;
+}
