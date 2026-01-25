@@ -1,0 +1,9 @@
+//2.print the shivan and ravi
+ #include<stdio.h>
+ int main(){
+   printf("sivan\n");
+   printf("ravi");
+   return 0;
+ }
+
+
