@@ -1,0 +1,8 @@
+// 4. Declare a character variable and print it
+#include<stdio.h>
+int main(){
+    char a,b;
+    a='X';
+    b='B';
+    printf("%c\n%c",a,b);
+}
