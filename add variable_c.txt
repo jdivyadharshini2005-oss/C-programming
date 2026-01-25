@@ -1,0 +1,11 @@
+// 6. Add two variable
+#include<stdio.h>
+int main(){
+    int a=8,b=7;
+    int a1=15,b1=15;
+    int sum=a+b;
+    int sum1=a1+b1;
+    printf("%d\n",sum);
+    printf("%d",sum1);
+    return 0;
+}
