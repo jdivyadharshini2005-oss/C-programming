@@ -1,0 +1,12 @@
+// 19. Digit Using ASCII
+#include<stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    if(n>=48 && n<=57){
+        printf("digit");
+    }
+    else{
+        printf("not digit");
+    }
+}
