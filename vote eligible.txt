@@ -1,0 +1,12 @@
+// 9. Voting Eligibility
+#include<stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    if(n>18){
+        printf("vote eligibility");
+    }
+    else{
+        printf("not eligible");
+    }
+}
