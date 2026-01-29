@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int plan, pay;
+    int cost = 0;
+
+    scanf("%d%d", &plan, &pay);
+
+    switch(plan) {
+        case 1: cost = 199; break;
+        case 2: cost = 399; break;
+    }
+
+    switch(pay) {
+        case 11:
+        case 12: cost -= 20; break;
+        case 13: break;
+    }
+
+    printf("Pay ₹%d", cost);
+    return 0;
+}
+
+   
