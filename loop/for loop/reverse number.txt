@@ -1,0 +1,12 @@
+//reverse a number
+#include<stdio.h>
+int main() {
+     int n,digit;
+     scanf("%d",&n);
+    int rev=0;
+    for (;n>0;n=n/10) {
+         digit=n%10;
+         rev=(rev*10)+digit;
+     }
+     printf("%d",rev);
+}
