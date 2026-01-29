@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int classType, age;
+    float fare = 0;
+
+    scanf("%d%d", &classType, &age);
+
+    switch(classType) {
+        case 1:
+            fare = 300;
+            if(age < 12) fare *= 0.5;
+            else if(age >= 60) fare *= 0.67;
+            break;
+
+        case 2:
+            fare = 1000;
+            if(age < 12) fare *= 0.5;
+            break;
+    }
+
+    printf("Fare ₹%.0f", fare);
+    return 0;
+}
