@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    int b;
+    scanf("%d", &b);
+
+    switch(b) {
+        case 1: printf("A+"); break;
+        case 2: printf("B+"); break;
+        case 3: printf("O+"); break;
+        case 4: printf("AB+"); break;
+        default: printf("Invalid group");
+    }
+    return 0;
+}
