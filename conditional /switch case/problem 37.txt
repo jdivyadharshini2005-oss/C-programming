@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int s;
+    scanf("%d", &s);
+
+    switch(s) {
+        case 1: printf("STOP"); break;
+        case 2: printf("READY"); break;
+        case 3: printf("GO"); break;
+        default: printf("Invalid signal");
+    }
+    return 0;
+}
