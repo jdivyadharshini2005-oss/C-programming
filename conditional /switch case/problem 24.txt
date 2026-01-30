@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    int call, min, cost=0;
+    scanf("%d%d", &call, &min);
+
+    switch(call) {
+        case 1: cost = min * 1; break;
+        case 2: cost = min * 3; break;
+        case 3: cost = min * 10; break;
+    }
+
+    printf("Call Charge ₹%d", cost);
+    return 0;
+}
