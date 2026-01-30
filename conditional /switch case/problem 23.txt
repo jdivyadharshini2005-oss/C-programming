@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int type, bill;
+    scanf("%d%d", &type, &bill);
+
+    switch(type) {
+        case 1: bill -= bill * 5 / 100; break;
+        case 2: bill -= bill * 15 / 100; break;
+    }
+
+    printf("Pay ₹%d", bill);
+    return 0;
+}
