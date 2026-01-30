@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int cls, weight;
+    scanf("%d%d", &cls, &weight);
+
+    switch(cls) {
+        case 1:
+            printf("Extra Baggage Charge ₹%d", weight * 300);
+            break;
+
+        case 2:
+            if(weight <= 3)
+                printf("Free");
+            else
+                printf("Extra Baggage Charge ₹%d", (weight - 3) * 300);
+            break;
+    }
+    return 0;
+}
