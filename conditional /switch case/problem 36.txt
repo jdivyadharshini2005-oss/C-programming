@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    int c;
+    scanf("%d", &c);
+
+    switch(c) {
+        case 1: printf("Indian Rupee"); break;
+        case 2: printf("US Dollar"); break;
+        case 3: printf("Euro"); break;
+        case 4: printf("Pound"); break;
+        default: printf("Invalid choice");
+    }
+    return 0;
+}
