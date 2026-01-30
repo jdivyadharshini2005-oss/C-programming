@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int cat, dist;
+    scanf("%d%d", &cat, &dist);
+
+    switch(cat) {
+        case 1:
+            if(dist <= 30)
+                printf("Eligible");
+            else
+                printf("Eligible with Extra Fee");
+            break;
+
+        case 2:
+            if(dist <= 30)
+                printf("Eligible");
+            else
+                printf("Not Eligible");
+            break;
+    }
+    return 0;
+}
