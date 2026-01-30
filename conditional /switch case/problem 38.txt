@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    switch(n) {
+        case 1: printf("Jio"); break;
+        case 2: printf("Airtel"); break;
+        case 3: printf("VI"); break;
+        case 4: printf("BSNL"); break;
+    }
+    return 0;
+}
