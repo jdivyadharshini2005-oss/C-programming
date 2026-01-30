@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+    int seat, time, price=0;
+    scanf("%d%d", &seat, &time);
+
+    switch(seat) {
+        case 1: price = 150; break;
+        case 2: price = 250; break;
+    }
+
+    if(time >= 18)
+        price += 50;
+
+    printf("Ticket Price ₹%d", price);
+    return 0;
+}
