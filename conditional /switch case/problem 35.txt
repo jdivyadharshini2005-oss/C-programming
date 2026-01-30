@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    int g;
+    scanf("%d", &g);
+
+    switch(g) {
+        case 10: printf("A Grade"); break;
+        case 9: printf("B Grade"); break;
+        case 8: printf("C Grade"); break;
+        case 7: printf("D Grade"); break;
+        default: printf("Fail");
+    }
+    return 0;
+}
