@@ -1,0 +1,24 @@
+// #include <stdio.h>
+
+// int main() {
+//     int totaldata, n;
+//     int i = 0;
+//     int datausage;
+//     int remainingDays = 0;
+//     scanf("%d", &totaldata);
+//     scanf("%d", &n);
+//     while (i < n) {
+//         scanf("%d", &datausage);
+//         if (datausage <= totaldata) {
+//             totaldata = totaldata - datausage;
+//             remainingDays++;
+//         }
+//         i++;
+//     }
+//     printf("%d\n", totaldata);
+//     printf("%d GB", remainingDays);
+//     return 0;
+// }
+
+
+    
