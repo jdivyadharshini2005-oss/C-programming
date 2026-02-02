@@ -1,0 +1,29 @@
+// #include <stdio.h>
+// int main() {
+//     int maxweight, passenger;
+    // int n;
+    // int i = 0;
+    // int sum = 0;
+    // int count = 0;
+    // scanf("%d", &maxweight);
+    // scanf("%d", &n);
+    // while (i < n) {
+    //     scanf("%d", &passenger);
+    //     sum = sum + passenger;
+    //     if (sum <= maxweight) {
+    //         count++;
+            
+    //     } else {
+    //         break;
+//         }
+//         i++;
+//     }
+//     printf("people entered:%d\n",count);
+//     if (count > n) {
+//         printf("Overload Status: Yes");
+//     } else {
+//         printf("Overload Status: No");
+//     }
+//     return 0;
+// }
+
