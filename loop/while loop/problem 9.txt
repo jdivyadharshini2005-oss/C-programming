@@ -1,0 +1,28 @@
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     scanf("%d",&n);
+//     int i=0;
+//     int study;
+//     int count=0;
+//     while(i<n){
+//         scanf("%d",&study);
+//         if(study==0){
+//             count++;
+            
+//         }
+//         i++;
+        
+//     }
+//     printf("Inactive Weeks: %d\n",count);
+//     if(count<=2){
+//         printf("Risk Status: Low");
+        
+//     }
+//     else{
+printf("Risk Status: High");
+        
+//     }
+//     return 0;
+    
+// }
