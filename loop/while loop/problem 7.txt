@@ -1,0 +1,23 @@
+// #include<stdio.h>
+// int main(){
+//     int capacity;
+//     scanf("%d",&capacity);
+//     int hours;
+//     scanf("%d",&hours);
+//     int i=0;
+//     int ch;
+//     int sum=0;
+//     int critical=0;
+//     while(i<hours){
+//         scanf("%d",&ch);
+//          sum=sum+ch;
+//         if(sum>(capacity*0.9)){
+           
+    //        critical++;
+    //     }
+    //     i++;
+    // }
+    //     printf("final occupied beds %d\n",sum);
+    //     printf("critical hours %d",critical);
+    
+    // }
