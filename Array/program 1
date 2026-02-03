@@ -1,0 +1,22 @@
+ #include<stdio.h>
+ int main() {
+     int size;
+     scanf("%d",&size);
+     int arr[size];
+     int largest=0;
+     int second_largest=0;
+     for (int i=0;i<size;i++) {
+         scanf("%d",&arr[i]);
+     }
+
+     for (int j=0;j<size;j++) {
+         if (largest<arr[j]) {
+             largest=arr[j];
+         }
+          else if (largest>arr[j] && second_largest<arr[j]) {
+              second_largest=arr[j];
+          }
+      }
+      printf("%d",second_largest);
+     return 0;
+      }
