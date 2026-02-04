@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main() {
+    int N;
+    scanf("%d", &N);
+    int vib[N];
+    for (int i = 0; i < N; i++) {
+        scanf("%d", &vib[i]);
+    }
+    int i = 0, unsafe = 0, consec = 0;
+    int breakdown = -1;
+    while (i < N) {
+        if (vib[i] > 70) {
+            unsafe++;
+            consec++;
+            if (consec == 3 && breakdown == -1) {
+                breakdown = i + 1;
+            }
+        } else {
+            consec = 0;
+        }
+        i++;
+    }
+    if (breakdown == -1)
+        printf("Breakdown At Reading: Not Occurred\n");
+    else
+        printf("Breakdown At Reading: %d\n", breakdown);
+
+    printf("Unsafe Readings: %d\n", unsafe);
+    return 0;
+}

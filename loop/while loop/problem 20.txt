@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main() {
+    int N;
+    scanf("%d", &N);
+    int vehicles[N];
+    for (int i = 0; i < N; i++) {
+        scanf("%d", &vehicles[i]);
+    }
+    int i = 0, congestion = 0;
+    int currentStreak = 0, maxStreak = 0;
+    while (i < N) {
+        if (vehicles[i] > 20) {
+            congestion++;
+            currentStreak++;
+            if (currentStreak > maxStreak)
+                maxStreak = currentStreak;
+        } else {
+            currentStreak = 0;
+        }
+        i++;
+    }
+
+    printf("Congestion Minutes: %d\n", congestion);
+    printf("Longest Congestion Streak: %d\n", maxStreak);
+    return 0;
+}

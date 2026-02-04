@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() {
+    int N;
+    scanf("%d", &N);
+    int overtime[N];
+    for (int i = 0; i < N; i++) {
+        scanf("%d", &overtime[i]);
+    }
+    int totalOvertime = 0;
+    int burnoutDays = 0;
+    int i = 0;
+    while (i < N) {
+        totalOvertime += overtime[i];
+        if (overtime[i] > 4) {
+            burnoutDays++;
+        }
+        i++;
+    }
+    printf("Total Overtime: %d\n", totalOvertime);
+    printf("Burnout Days: %d\n", burnoutDays);
+    return 0;
+}

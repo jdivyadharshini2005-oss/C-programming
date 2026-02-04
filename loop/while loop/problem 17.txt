@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    int ATMcash, N;
+    scanf("%d", &ATMcash);
+    scanf("%d", &N);
+
+    int withdrawals[N];
+    for (int i = 0; i < N; i++) {
+        scanf("%d", &withdrawals[i]);
+    }
+
+    int count = 0;
+    int i = 0;
+
+    while (i < N && ATMcash >= withdrawals[i]) {
+        ATMcash -= withdrawals[i];
+        count++;
+        i++;
+    }
+
+    printf("Successful Withdrawals: %d\n", count);
+    printf("Remaining Cash: %d\n", ATMcash);
+
+    return 0;
+}
