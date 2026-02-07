@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main() {
+    int r,c;
+    scanf("%d %d",&r,&c);
+    int arr[c][r];
+    for (int i=0;i<r;i++) {
+        for (int j=0;j<c;j++) {
+            scanf("%d",&arr[i][j]);
+        }
+    }
+    int largest=0;
+    int second_negative=0;
+    for (int i=0;i<r;i++) {
+        for (int j=0;j<c;j++) {
+            if (arr[i][j]<=largest) {
+                largest=arr[i][j];
+            }
+            else if (arr[i][j]<=second_negative) {
+                second_negative=arr[i][j];
+            }
+        }
+
+    }
+        printf("%d\n",second_negative*largest);
+
+
+    return 0;
+}
