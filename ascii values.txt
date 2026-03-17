@@ -1,4 +1,3 @@
-  // 7. Alphabet, Digit, or Special Character
 #include<stdio.h>
 int main(){
     int n;
